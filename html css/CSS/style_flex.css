@@ -1,0 +1,39 @@
+body{
+	background-color: #a4e6f4;
+	margin: 10px 10px 0px 0px;
+	padding: 0px;
+}
+div{
+	background-color:#6998a3;
+	color: white;
+	padding: 80px;
+}
+
+div:nth-of-type(2){
+	order: 1;
+}
+div:nth-of-type(3){
+	order: 2;
+}
+
+
+div:first-child{
+	order: 3;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-between;
+	flex-wrap: wrap;
+	align-content: center;
+}
+
+.one, .two, .three, .four {
+	margin-left: 10px;
+	margin-bottom: 10px;
+	flex: 1;
+}
+
+
+
