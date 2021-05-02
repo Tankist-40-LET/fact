@@ -1,7 +1,8 @@
 <?php
 //1
 echo "<strong>1 задача: вывод чисел от 5 до 13</strong><br>";
-for ($i=5; $i <= 13; $i++) { 
+for ($i=5; $i <= 13; $i++) {
+
 	echo "$i <br>";
 }
 echo "<br>";
